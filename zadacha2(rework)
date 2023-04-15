@@ -1,0 +1,11 @@
+Console.WriteLine("введи мне цифры");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+if (a>b)
+{
+    Console.WriteLine("наибольшое:"+a);
+}
+else
+{
+    Console.WriteLine("наибольшое:"+b);
+}
